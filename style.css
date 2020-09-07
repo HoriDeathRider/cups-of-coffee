@@ -6,41 +6,46 @@
 
 body{
     background-color: rgba(240, 240, 78, 0.829);
+    padding-top: 20px;
 }
 
-.wrapper{
-    padding-top: 10px;
+.container{
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
 
-.container{
+.card{
     background: white;
     border-radius: 4%;
-    padding: 25px;
     box-shadow: 0 0 10px;
+    margin: 15px;
     
 }
 
-.container:hover{
+.card__cost{
+    color: green;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.card__tier{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.card__description{
+    width: 135px;
+    margin-bottom: 5px;
+}
+
+.card:hover{
     box-shadow: 0 0 20px;
 }
 
 img{
-    width: 35%;
-    height: 45%;
-    padding-bottom: 50px;
+    width: 55%;
+    margin-bottom: 30px;
 }
 
-.cost{
-    color: green;
-    font-size: 32px;
-    font-weight: 600;
-    padding-bottom: 40px;
-}
-
-.tier{
-    font-size: 32px;
-    padding-bottom: 10px;
-}
