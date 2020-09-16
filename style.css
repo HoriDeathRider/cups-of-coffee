@@ -19,7 +19,7 @@ body{
     background: white;
     border-radius: 4%;
     box-shadow: 0 0 10px;
-    margin: 15px;
+    padding: 15px 30px 15px 30px;
     
 }
 
@@ -37,14 +37,13 @@ body{
 
 .card__description{
     width: 135px;
-    margin-bottom: 5px;
 }
 
 .card:hover{
     box-shadow: 0 0 20px;
 }
 
-img{
+.card__image{
     width: 55%;
     margin-bottom: 30px;
 }
